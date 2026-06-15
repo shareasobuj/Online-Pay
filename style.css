@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* মোবাইল স্ক্রিনের কাস্টম স্ক্রলবার হাইড */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* বাটন ক্লিক করার রিয়েল-টাইম ইফেক্ট */
+button:active {
+    transform: scale(0.97);
+    transition: transform 0.1s ease;
+}
